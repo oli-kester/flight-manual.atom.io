@@ -17,3 +17,7 @@ atom-kf8.epub
 atom.mobi
 /images/
 content/api
+
+
+# epub generator 
+build/

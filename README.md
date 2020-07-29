@@ -1,4 +1,23 @@
-# Atom Flight Manual
+# Atom Flight Manual - EPUB Generator
+
+### Requirements
+- Pandoc (tested with 2.10.1)
+
+### Usage
+
+Only works on the README for now as a proof of concept.
+
+Run from terminal -
+
+  For EPUB output -
+
+  `pandoc README.md -o build/atom-editor-ebook.epub`
+
+  ...or for PDF -
+
+  `pandoc README.md -o build/atom-editor-ebook.pdf`
+
+# Original Atom manual Readme
 
 This is the Atom book. Everything you need to know in order to use and hack Atom is in this Flight Manual.
 
